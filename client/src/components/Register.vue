@@ -24,7 +24,7 @@ export default {
                 email: this.email,
                 password: this.password
             })
-            console.log(res)
+            console.log(res.data)
         }
     }
 }
